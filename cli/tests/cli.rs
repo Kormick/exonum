@@ -18,8 +18,8 @@ use exonum::{api::backends::actix::AllowOrigin, blockchain::ValidatorKeys, crypt
 use exonum_cli::{
     command::{
         finalize::Finalize, generate_config::GenerateConfig, generate_template::GenerateTemplate,
-    },
         run::Run, Command, ExonumCommand, StandardResult,
+    },
     config::{GeneralConfig, NodePrivateConfig, NodePublicConfig},
     io::{load_config_file, save_config_file},
     password::DEFAULT_MASTER_PASS_ENV_VAR,
