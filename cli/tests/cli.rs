@@ -14,9 +14,6 @@
 
 // This is a regression test for exonum configuration.
 
-#[macro_use]
-extern crate pretty_assertions;
-
 use exonum::{
     api::backends::actix::AllowOrigin,
     crypto::{PublicKey, PUBLIC_KEY_LENGTH},
